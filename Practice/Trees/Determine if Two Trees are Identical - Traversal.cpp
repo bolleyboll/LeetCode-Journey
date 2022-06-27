@@ -2,6 +2,13 @@
 G4G: https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1
 Tree Identical = Tree Same
 ***Traversal Not a Valid Approach***
+Input
+[1,1]
+[1,null,1]
+Output
+true
+Expected
+false
 */
 class Solution {
 public:
