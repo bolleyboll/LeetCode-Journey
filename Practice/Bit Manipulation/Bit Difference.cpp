@@ -27,7 +27,6 @@ class Solution{
             num = num >> 1;
         }
         return c;
-        
     }
 };
 
