@@ -1,5 +1,5 @@
 /*
-
+https://practice.geeksforgeeks.org/problems/power-of-2/0
 */
 //{ Driver Code Starts
 //Initial Template for C++
@@ -24,6 +24,11 @@ class Solution{
             return true;
         else
             return false;
+    }
+	bool isPowerofTwo_Appropriate_Approach(long long n){
+        
+        // Your code here
+        return (n!=0 && (n&(n-1))==0);
     }
 };
 
