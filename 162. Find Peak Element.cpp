@@ -1,6 +1,10 @@
 /*
-LC: https://leetcode.com/problems/find-peak-element/
+https://leetcode.com/problems/find-peak-element/
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     int findPeakElement(vector<int>& arr) {

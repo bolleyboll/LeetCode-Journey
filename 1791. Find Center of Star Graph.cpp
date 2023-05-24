@@ -1,6 +1,10 @@
 /*
-LC: https://leetcode.com/problems/find-center-of-star-graph/
+https://leetcode.com/problems/find-center-of-star-graph/
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges) {

@@ -1,6 +1,10 @@
 /*
-LC: https://leetcode.com/problems/decode-xored-permutation/
+https://leetcode.com/problems/decode-xored-permutation/
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     vector<int> decode(vector<int>& A) {

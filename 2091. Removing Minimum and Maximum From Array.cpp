@@ -1,6 +1,10 @@
 /*
-LC: https://leetcode.com/problems/removing-minimum-and-maximum-from-array/
+https://leetcode.com/problems/removing-minimum-and-maximum-from-array/
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     int minimumDeletions(vector<int>& A) {

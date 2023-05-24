@@ -1,6 +1,10 @@
 /*
 https://leetcode.com/problems/counting-bits/
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     vector<int> countBits(int n) {
