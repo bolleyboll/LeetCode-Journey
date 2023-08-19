@@ -1,4 +1,4 @@
-// G4G: https://practice.geeksforgeeks.org/problems/square-pattern
+// G4G: https://practice.geeksforgeeks.org/problems/triangle-number-1661428795
 
 //{ Driver Code Starts
 #include <bits/stdc++.h>
@@ -8,11 +8,10 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    void printSquare(int n) {
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
-                cout << "* ";
-            }
+    void printTriangle(int n) {
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=i; j++)
+                cout << i << " ";
             cout << endl;
         }
     }
@@ -28,7 +27,7 @@ int main() {
         cin >> n;
 
         Solution ob;
-        ob.printSquare(n);
+        ob.printTriangle(n);
     }
     return 0;
 }
