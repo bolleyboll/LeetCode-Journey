@@ -1,4 +1,4 @@
-CN: https://www.codingninjas.com/studio/problems/check-armstrong_589
+// CN: https://www.codingninjas.com/studio/problems/check-armstrong_589
 
 #include <math.h>
 bool checkArmstrong(int n){
