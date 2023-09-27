@@ -1,4 +1,4 @@
-LC: https://leetcode.com/problems/palindrome-number/
+// LC: https://leetcode.com/problems/palindrome-number/
 
 class Solution {
 public:
