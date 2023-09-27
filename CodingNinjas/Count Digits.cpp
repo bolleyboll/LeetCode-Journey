@@ -1,4 +1,4 @@
-CN: https://www.codingninjas.com/studio/problems/count-digits_8416387
+// CN: https://www.codingninjas.com/studio/problems/count-digits_8416387
 
 int countDigits(int n){
 	int res=0;
