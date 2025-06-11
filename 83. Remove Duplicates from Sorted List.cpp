@@ -13,12 +13,15 @@ using namespace std;
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    ListNode* deleteDuplicates(ListNode* head) {
-        ListNode* curr=head;
-        while(curr && curr->next){
-            if(curr->val == curr->next->val)
+    ListNode *deleteDuplicates(ListNode *head)
+    {
+        ListNode *curr = head;
+        while (curr && curr->next)
+        {
+            if (curr->val == curr->next->val)
                 curr->next = curr->next->next;
             else
                 curr = curr->next;
